@@ -26,7 +26,7 @@ Once you have finalized your terms of use document, use the following procedure 
 
 4. On the Terms of use page, on the top menu, select **+ New terms**
 
-    ![Screen image displaying the Terms of use page with New terms highlighted](./media/new-terms-of-use.png)
+    ![Screen image displaying the Terms of use page with New terms highlighted](./Media/new-terms-of-use.png)
 
 5. In the **Name** box, enter **Testing terms of use**.
 
@@ -105,7 +105,7 @@ Once you have finalized your terms of use document, use the following procedure 
 
 25. When complete, select **Create**.
 
-    ![Screen image displaying the conditional access policy with configuration options highlighted](./media/terms-of-use-ca-policy.png)
+    ![Screen image displaying the conditional access policy with configuration options highlighted](./Media/terms-of-use-ca-policy.png)
 
 26. If you chose to use your own account, you can refresh your browser. You will be prompted to sign in again. When you sign in, you will be required to accept the terms of use.
 
@@ -137,11 +137,11 @@ The Terms of use page shows a count of the users who have accepted and declined.
 
 2. For a terms of use, select the numbers under **Accepted** or **Declined** to view the current state for users.
 
-    ![Screen image displaying the terms of use with the Accepted and Declined columns highlighted](./media/terms-of-use-accept-decline.png)
+    ![Screen image displaying the terms of use with the Accepted and Declined columns highlighted](./Media/terms-of-use-accept-decline.png)
 
 3. In this exercise you may not have any accepted or declined terms of use. In the following example, the **Accepted** value was selected. You can see the reported user information for those that have accepted the terms of use.
 
-    ![Terms of use consents pane listing the users that have accepted](./media/accepted-tou.png)
+    ![Terms of use consents pane listing the users that have accepted](./Media/accepted-tou.png)
 
 4. On the **Terms of Use Consents** page select **Download** to download a consents report.
 
@@ -151,15 +151,15 @@ The Terms of use page shows a count of the users who have accepted and declined.
 
 1. Once a terms of use is created and enforced, users who are in scope will see the terms of use page.
 
-    ![Example terms of use that appears when a user signs in](./media/user-tou.png)
+    ![Example terms of use that appears when a user signs in](./Media/user-tou.png)
 
 2. Users can view the terms of use and, if necessary, use buttons to zoom in and out.
 
-    ![View of terms of use with zoom buttons](./media/zoom-buttons.png)
+    ![View of terms of use with zoom buttons](./Media/zoom-buttons.png)
 
 3. On mobile devices, the terms of use will be displayed similar to the following example.
 
-    ![Example terms of use that appears when a user signs in on a mobile device](./media/mobile-tou.png)
+    ![Example terms of use that appears when a user signs in on a mobile device](./Media/mobile-tou.png)
 
 #### Task 5 - How users can review their terms of use
 
@@ -200,7 +200,7 @@ You can edit some details of terms of use, but you can't modify an existing docu
 
     - You can add a language to an existing ToU If there are other settings you would like to change, such as require users to consent on every device, expire consents, duration before reacceptance, or Conditional Access policy, you must create a new terms of use.
 
-    ![Screen image of the Identity Governance terms of use being edited.](./media/edit-terms-of-use.png)
+    ![Screen image of the Identity Governance terms of use being edited.](./Media/edit-terms-of-use.png)
 
 7. Once you are done, select **Save** to save your changes.
 
@@ -214,13 +214,13 @@ You may, on occasion, be required to update the terms of use document.
 
 3. In the **Language Options** table, identify the terms of use language you want to update and then, in the **Action** column, select **Update**.
 
-    ![Screen image displaying the terms of use with the update option highlighted](./media/edit-terms-of-use-update.png)
+    ![Screen image displaying the terms of use with the update option highlighted](./Media/edit-terms-of-use-update.png)
 
 4. In the Update terms of use version pane, you can upload a new version of your terms of use document.
 
 5. Additionally, you can use the **Require reaccept** toggle button if you want to require your users to accept this new version the next time they sign in. If you do not require your users to re-accept, their previous consent will stay current and only new users who have not consented before or whose consent expires will see the new version.
 
-    ![Screen image displaying the update terms of use version pane with the upload required pdf and require re-accept highlighted](./media/update-terms-of-use-version.png)
+    ![Screen image displaying the update terms of use version pane with the upload required pdf and require re-accept highlighted](./Media/update-terms-of-use-version.png)
 
 6. Once you have uploaded your new pdf and decided on re-accept, select **Add**.
 

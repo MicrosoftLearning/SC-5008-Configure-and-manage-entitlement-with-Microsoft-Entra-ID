@@ -26,7 +26,7 @@ Follow these steps to open the settings for an Microsoft Entra role.
 
 4. On the Quick start page, in the left navigation, select **Settings.**
 
-    ![Screen image displaying the Microsoft Entra roles page with the Settings menu highlighted](./media/pim-ad-roles-settings.png)
+    ![Screen image displaying the Microsoft Entra roles page with the Settings menu highlighted](./Media/pim-ad-roles-settings.png)
 
 5. Review the list of roles and then, in the **Search by role name**, enter **compliance**.
 
@@ -38,7 +38,7 @@ Follow these steps to open the settings for an Microsoft Entra role.
 
 1. In the Role setting details page, on the top menu, select **Edit**.
 
-    ![Screen image displaying the top portion of the Role setting details -Compliance Administrator page with Edit highlighted](./media/pim-edit-compliance-role.png)
+    ![Screen image displaying the top portion of the Role setting details -Compliance Administrator page with Edit highlighted](./Media/pim-edit-compliance-role.png)
 
 2. In the Edit role setting – Compliance Administrator page, select the **Require approval to activate** check box.
 
@@ -46,7 +46,7 @@ Follow these steps to open the settings for an Microsoft Entra role.
 
 4. In the Select a member pane, select your administrator account and then select **Select**.
 
-    ![Screen image displaying the edit role settings page and select a member pane with the selected members highlighted](./media/pim-add-approver.png)
+    ![Screen image displaying the edit role settings page and select a member pane with the selected members highlighted](./Media/pim-add-approver.png)
 
 5. Once you have configured the role settings, select **Update** to save your changes.
 
@@ -70,7 +70,7 @@ Follow these steps to make a user eligible for an Microsoft Entra admin role.
 
 5. On the top menu, select **+ Add assignments.**
 
-    ![Screen image displaying Microsoft Entra roles with Add assignments menu highlighted](./media/pim-assign-role.png)
+    ![Screen image displaying Microsoft Entra roles with Add assignments menu highlighted](./Media/pim-assign-role.png)
 
 6. In the Add assignments page, on the **Membership** tab, review the settings.
 
@@ -119,13 +119,13 @@ When you need to assume an Microsoft Entra role, you can request activation by o
 
 4. In the My roles page, review the list of **Eligible assignments**.
 
-    ![Screen image displaying My roles with eligible role assignments highlighted](./media/pim-my-roles.png)
+    ![Screen image displaying My roles with eligible role assignments highlighted](./Media/pim-my-roles.png)
 
 5. In the Compliance Administrator role row, select **Activate**.
 
 6. In the Activate – Compliance Administrator pane, select **Additional verification required** and then follow the instructions to provide additional security verification. You are required to authenticate only once per session.
 
-    ![Screen image displaying a popup to activate the compliance administrator](./media/pim-activate-role.png)
+    ![Screen image displaying a popup to activate the compliance administrator](./Media/pim-activate-role.png)
 
     **Verification** - Based on our current lab environment configuration, you will be required configure MFA and log in successfully.
 

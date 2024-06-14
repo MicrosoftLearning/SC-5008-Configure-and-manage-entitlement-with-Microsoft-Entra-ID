@@ -98,7 +98,7 @@ Access reviews help ensure that only the right people have access to secure reso
 
 1. Select the **Start review >** button.
 
- ![Screenshot of the Access review page that AdeleV gets when launching the link in email.  Note that Christopher Green is recommended to be removed.](./media/access-review-page.png)
+ ![Screenshot of the Access review page that AdeleV gets when launching the link in email.  Note that Christopher Green is recommended to be removed.](./Media/access-review-page.png)
 
 1. Put a check-mark in the circle next to **Christopher Green**.
 

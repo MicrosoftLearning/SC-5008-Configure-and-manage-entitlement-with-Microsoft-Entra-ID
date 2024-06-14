@@ -33,7 +33,7 @@ After you complete this lab, you will be able to:
 
 1. Select **Catalogs** from the menu.
 
- ![Screenshot of the create new catalog screen with the new catalog button highlighted.  You have fields for name, description, and Enabled.](./media/create-new-catalog.png)
+ ![Screenshot of the create new catalog screen with the new catalog button highlighted.  You have fields for name, description, and Enabled.](./Media/create-new-catalog.png)
 
 1. Select **+ New catalog** at the top of the screen.
 
@@ -59,7 +59,7 @@ After you complete this lab, you will be able to:
 
 1. Next select **+ Add resources** from the top of the page.
 
- ![Screenshot of Add resources to catalog user interface. You can add Teams, Applications, SharePoints, and other items.](./media/add-resources-to-catalog.png)
+ ![Screenshot of Add resources to catalog user interface. You can add Teams, Applications, SharePoints, and other items.](./Media/add-resources-to-catalog.png)
 
 1. Using the selectors at the top of the screen, add the following resources:
 
