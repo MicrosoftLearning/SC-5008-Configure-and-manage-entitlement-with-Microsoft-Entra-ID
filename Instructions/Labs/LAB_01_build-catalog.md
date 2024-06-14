@@ -33,7 +33,7 @@ After you complete this lab, you will be able to:
 
 1. Select **Catalogs** from the menu.
 
- ![Screenshot of the create new catalog screen with the new catalog button highlighted.  You have fields for name, description, and Enabled.](./media/create-new-catalog.png)
+ ![Screenshot of the create new catalog screen with the new catalog button highlighted.  You have fields for name, description, and Enabled.](media/create-new-catalog.png)
 
 1. Select **+ New catalog** at the top of the screen.
 
