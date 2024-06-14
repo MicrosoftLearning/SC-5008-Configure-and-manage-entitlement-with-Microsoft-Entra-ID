@@ -5,7 +5,6 @@ lab:
 ---
 
 # Lab: Building a catalog in Microsoft Entra entitlement management
-# Student lab manual
 
 ## Lab scenario
 

@@ -1,4 +1,4 @@
-# INF99X: Sample Course
+# Labs for - Configure and govern entitlement using Microsift Entra ID
 
 **Are you an MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 
@@ -15,10 +15,6 @@
 - These files on GitHub are designed to be used in the course labs, which use the hosted lab environment.
 
 - It is recommended that for every delivery, trainers check GitHub for any changes that may have been made to support the latest Microsoft cloud services and get the latest files for their delivery.
-
-## What about changes to the student handbook?
-
-- We will review the student handbook on a quarterly basis and update through the normal MOC (Microsoft Official Curriculum) release channels as needed.
 
 ## How do I contribute?
 
