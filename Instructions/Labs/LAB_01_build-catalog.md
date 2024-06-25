@@ -41,8 +41,8 @@ After you complete this lab, you will be able to:
 
   | Field | Value |
   | :---  | :---  |
-  | Name  | catSales |
-  | Description | Use this catalog to assign resources for memebers of the Sales team |
+  | Name  | `catSales` |
+  | Description | `Use this catalog to assign resources for memebers of the Sales team.` |
   | Enabled | Yes |
   | Enabled for external users | No |
   | | |
@@ -84,8 +84,8 @@ After you complete this lab, you will be able to:
 
   | Field | Value |
   | :---  | :---  |
-  | User principal name  | ChrisGr |
-  | Diplay name | Christopher Green |
+  | User principal name  | `ChrisGr` |
+  | Diplay name | `Christopher Green` |
   | Auto-generated password | Checked on |
   | Account enabled | Checked on |
   | | |
@@ -124,7 +124,7 @@ After you complete this lab, you will be able to:
   | Resource Type | Value | Role |
   | :---  | :---  | :--- |
   | + Groups and Teams  | Sales and Marketing | Member |
-  | + Applications | LinkedIn | Default Access |
+  | + Applications | LinkedIn | msiam_access |
   | + SharePoint sites | U.S. Sales | U.S. Sales Members |
   | | |
 

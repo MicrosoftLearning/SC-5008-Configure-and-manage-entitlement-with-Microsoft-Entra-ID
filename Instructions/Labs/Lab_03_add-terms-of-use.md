@@ -16,7 +16,13 @@ Microsoft Entra terms of use policies provide a simple method that organizations
 
 #### Task 1 - Add terms of use
 
-Once you have finalized your terms of use document, use the following procedure to add it.
+    **Important** - To use and configure Microsoft Entra ID terms of use, you must have:
+    - Microsoft Entra ID Premium P1, P2, EMS E3, or EMS E5 subscription.
+    - If you don't have one of these subscriptions, you can get Microsoft Entra ID Premium trial.
+    - One of the following administrator accounts for the directory you want to configure:
+        - Global Administrator
+        - Security Administrator
+        - Conditional Access Administrator
 
 1. Sign in to [https://entra.microsoft.com](https://entra.microsoft.com) using a Global Administrator account.
 

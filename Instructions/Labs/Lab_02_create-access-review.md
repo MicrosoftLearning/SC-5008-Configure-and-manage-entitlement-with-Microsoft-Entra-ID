@@ -12,19 +12,11 @@ Access reviews help ensure that only the right people have access to secure reso
 
 #### Estimated time: 15 minutes
 
-### Exercise 1 - Confirm that we don't have users accessing the Demo App that should not be using that resource.
+### Exercise 1 - Confirm that we don't have users accessing the LinkedIn that should not be using that resource.
 
 #### Task 1 - Create an Access Review - Review Type
 
 1. Sign in to [https://entra.microsoft.com](https://entra.microsoft.com) using a Global Administrator account.
-
-    **Important** - To use and configure Microsoft Entra ID terms of use, you must have:
-    - Microsoft Entra ID Premium P1, P2, EMS E3, or EMS E5 subscription.
-    - If you don't have one of these subscriptions, you can get Microsoft Entra ID Premium trial.
-    - One of the following administrator accounts for the directory you want to configure:
-        - Global Administrator
-        - Security Administrator
-        - Conditional Access Administrator
 
 1. Open the **Identity** menu, and then select **Identity Governance**.
 
@@ -34,7 +26,7 @@ Access reviews help ensure that only the right people have access to secure reso
 
 1. In the New access review pane, select the **Applications** item in the 'Select what to review' dropdown.
 
-1. Use the **+ Select applications(s)** to choose the **Demo App** from the list.
+1. Use the **+ Select applications(s)** to choose the **LinkedIn** from the list.
 
 1. For the **Scope** select **All users**.
 
@@ -82,8 +74,8 @@ Access reviews help ensure that only the right people have access to secure reso
 
 | Field name | Value |
 | :--- | :--- |
-| Review name | `Check Demo App` |
-| Description | `In this access review, we check to see if the right people have access to Demo App.` |
+| Review name | `Check LinkedIn` |
+| Description | `In this access review, we check to see if the right people have access to LinkedIn.` |
 | | | 
 
 #### Task 4 - Log in as Adele to run the Access Review
@@ -94,7 +86,7 @@ Access reviews help ensure that only the right people have access to secure reso
 
 1. Log in as Adele Vance based on your tenant.
 
- **Note** - You should have an email from **Microsoft Security** with a subject of **Action required: Review access to the Demo App...**
+ **Note** - You should have an email from **Microsoft Security** with a subject of **Action required: Review access to the LinkedIn...**
 
 1. Select the **Start review >** button.
 
@@ -118,6 +110,6 @@ Access reviews help ensure that only the right people have access to secure reso
 
 1. Select **Access reviews**.
 
-1. Select the **Check demo app** review that we built earlier in this lab.
+1. Select the **Check LinkedIn** review that we built earlier in this lab.
 
 1. Review the response from AdeleV.
