@@ -66,7 +66,7 @@ After you complete this lab, you will be able to:
   | Resource Type | Value |
   | :---  | :---  |
   | + Groups and Teams  | Sales and Marketing, and U.S. Sales |
-  | + Applications | Demo App |
+  | + Applications | LinkedIn |
   | + SharePoint sites | Sales and Marketings, and U.S. Sales |
   | | |
 
@@ -124,7 +124,7 @@ After you complete this lab, you will be able to:
   | Resource Type | Value | Role |
   | :---  | :---  | :--- |
   | + Groups and Teams  | Sales and Marketing | Member |
-  | + Applications | Demo App | Default Access |
+  | + Applications | LinkedIn | Default Access |
   | + SharePoint sites | U.S. Sales | U.S. Sales Members |
   | | |
 
@@ -194,7 +194,7 @@ After you complete this lab, you will be able to:
 
 1. From the menu on the left, select **Applications**.
 
-1. Confirm that you have access to the **Demo App**.
+1. Confirm that you have access to the **LinkedIn**.
 
 #### Task 7: Challenge - Dynamic changes to the Access package
 
