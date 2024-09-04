@@ -16,13 +16,13 @@ Microsoft Entra terms of use policies provide a simple method that organizations
 
 #### Task 1 - Add terms of use
 
-    **Important** - To use and configure Microsoft Entra ID terms of use, you must have:
-    - Microsoft Entra ID Premium P1, P2, EMS E3, or EMS E5 subscription.
-    - If you don't have one of these subscriptions, you can get Microsoft Entra ID Premium trial.
-    - One of the following administrator accounts for the directory you want to configure:
-        - Global Administrator
-        - Security Administrator
-        - Conditional Access Administrator
+ **Important** - To use and configure Microsoft Entra ID terms of use, you must have:
+ - Microsoft Entra ID Premium P1, P2, EMS E3, or EMS E5 subscription.
+ - If you don't have one of these subscriptions, you can get Microsoft Entra ID Premium trial.
+ - One of the following administrator accounts for the directory you want to configure:
+  - Global Administrator
+  - Security Administrator
+  - Conditional Access Administrator
 
 1. Sign in to [https://entra.microsoft.com](https://entra.microsoft.com) using a Global Administrator account.
 
@@ -91,7 +91,7 @@ Microsoft Entra terms of use policies provide a simple method that organizations
 
 16. When the terms of use is created, you will automatically be redirected to the Conditional access policy page. On the page, in the **Name** box, enter **Enforce ToU**.
 
-17. Under **Assignments**, select **Users or workload identities**.
+17. Under **Assignments**, select **0 Users and groups selected**.
 
 18. On the include tab, select **Users and groups** check box.
 
@@ -99,11 +99,11 @@ Microsoft Entra terms of use policies provide a simple method that organizations
 
    **Warning** - If you choose your administrator account, like all conditional access policies, be sure you have another account with enough permissions to change the conditional access policy. This is to ensure your administrator account will not be locked out should the conditional access policy result in an undesirable outcome.
 
-20. Select **Cloud apps or actions.**
+20. Under **Target resouces**, select **No target resources selected**.
 
 21. Select **All cloud apps**.
 
-22. Under **Access controls**, select **Grant**.
+22. Under **Access controls**, and **Grant**, select **0 controls selected**.
 
 23. In the Grant pane, select **Testing terms of use** and then select **Select**.
 
@@ -196,15 +196,10 @@ You can edit some details of terms of use, but you can't modify an existing docu
 
 6. In the Edit terms of use pane, you can change the following:
 
-    - **Name** – this is the internal name of the ToU that is not shared with end users
-  
-    - **Display name** – this is the name that end users can see when viewing the ToU
-
-    - **Require users to expand the terms of use** – Setting this to **On** will force the end use to expand the terms of use document before accepting it.
-
-    - **Update an existing terms of use** document.
-
-    - You can add a language to an existing ToU If there are other settings you would like to change, such as require users to consent on every device, expire consents, duration before reacceptance, or Conditional Access policy, you must create a new terms of use.
+ - **Name** – this is the internal name of the ToU that is not shared with end users
+ - **Require users to expand the terms of use** – Setting this to **On** will force the end use to expand the terms of use document before accepting it.
+ - **Update an existing terms of use** document.
+ - You can add a language to an existing ToU If there are other settings you would like to change, such as require users to consent on every device, expire consents, duration before reacceptance, or Conditional Access policy, you must create a new terms of use.
 
     ![Screen image of the Identity Governance terms of use being edited.](./Media/edit-terms-of-use.png)
 
