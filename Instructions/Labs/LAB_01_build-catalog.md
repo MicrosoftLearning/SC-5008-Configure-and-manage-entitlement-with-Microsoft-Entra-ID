@@ -4,7 +4,7 @@ lab:
     module: 'Module : Deploying access using Microsoft Entra entitlement management'
 ---
 
-# Lab: Building a catalog in Microsoft Entra entitlement management
+# Lab 1: Building a catalog in Microsoft Entra entitlement management
 
 ## Lab scenario
 
@@ -194,11 +194,11 @@ After you complete this lab, you will be able to:
 
 1. From the menu on the left, select **Applications**.
 
-1. Confirm that you have access to the **LinkedIn**.
+1. Confirm that you have **LinkedIn** is your assigned applications.
 
 #### Task 7: Challenge - Dynamic changes to the Access package
 
-  **Note** - This task does not going to have step by step instructions. You are provide the set of tasks, and you can reference previous steps above to remind you of where to make specific changes.
+  **Note** - This task does not have step by step instructions. You are provide the set of tasks, and you can reference previous steps above to remind you of where to make specific changes.
 
 - Make sure you logged into **Microsoft Entra admin center** as your admin account.
 - Open your **pckSales** Access package.
