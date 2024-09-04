@@ -52,11 +52,13 @@ Access reviews help ensure that only the right people have access to secure reso
 | Occurences | 3 |
 | | |
 
+1. Select the **Next: Settings** option.
+
 #### Task 3 - Create an Access review - Settings
 
 1. Leave **Auto apply results to resoureces** box in the unchecked state.
 
- **Note** - we want to make we validate the results after the review is complete.
+ **Note** - we want to make sure we validate the results after the review is complete.
 
 1. Chose the option **Remove access** for the **If reviewer don't respond**.
 
@@ -78,15 +80,19 @@ Access reviews help ensure that only the right people have access to secure reso
 | Description | `In this access review, we check to see if the right people have access to LinkedIn.` |
 | | | 
 
+1. Select **Create**.
+
 #### Task 4 - Log in as Adele to run the Access Review
 
 1. Close your browser, if you have it open.
 
 1. Open the browser and connect to `https://outlook.office.com/`.
 
+1. You will be prompted to change your password once you log in as Adele.
+
 1. Log in as Adele Vance based on your tenant.
 
- **Note** - You should have an email from **Microsoft Security** with a subject of **Action required: Review access to the LinkedIn...**
+ **Note** - You should have an email from **Microsoft Security** with a subject of **Action required: Review access to the LinkedIn...**.  This email might take up to 10 minutes to arrive.
 
 1. Select the **Start review >** button.
 
@@ -105,6 +111,8 @@ Access reviews help ensure that only the right people have access to secure reso
 1. Close your browser, if you have it open.
 
 1. Open the browser and connect to `https://Entra.Microsoft.com/`.
+
+1. Log into Microsoft Entra with you administrator account.
 
 1. In the menu on the left open **Identity governance**.
 
