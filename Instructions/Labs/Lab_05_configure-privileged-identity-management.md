@@ -103,10 +103,12 @@ Follow these steps to make a user eligible for an Microsoft Entra admin role.
    | Username | **MiriamG@** `<<your domain.onmicrosoft.com>>` |
    | Password |  Enter the tenant's admin password(Refer the Lab Resources tab to retrieve the tenant admin password) |
 
-4. From the **Identity** menu, open **Users** and then select **All users**.
-5. Find **Miriam** in the list of users
-6. On the **Overview** page, look for the **Assigned roles**.
-7. Select **Eligible assignments**.
+**NOTE** - if prompted change your password.
+
+5. From the **Identity** menu, open **Users** and then select **All users**.
+6. Find **Miriam** in the list of users
+7. On the **Overview** page, look for the **Assigned roles**.
+8. Select **Eligible assignments**.
 1. Notice that the **Compliance Administrator** role is now available to Miriam.
 
 #### Task 3 - Activate your Microsoft Entra roles
