@@ -1,7 +1,20 @@
 ---
 lab:
-    title: 'Lab 4: Manage the lifecycle of external users in Microsoft Entra Identity Governance settings'
-    module: 'Module : Deploying access using Microsoft Entra entitlement management'
+  title: 'Lab 4: Manage the lifecycle of external users in Microsoft Entra Identity
+    Governance settings'
+  module: 'Module : Deploying access using Microsoft Entra entitlement management'
+  description: You can select what happens when an external user, who was invited
+    to your directory through an access package request being approved, no longer
+    has any access package assignments. This can happen if the user relinquishes all
+    their access package assignments, or their last access package assignment expires.
+    By default, when an external user no longer has any access package assignments,
+    they are blocked from signing in to your directory. After 30 days, their guest
+    user account is removed from your directory.
+  duration: 5 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Microsoft Entra
 ---
 
 # Lab 4: Manage the lifecycle of external users in Microsoft Entra Identity Governance settings  
