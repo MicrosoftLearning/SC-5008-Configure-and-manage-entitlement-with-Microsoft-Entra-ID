@@ -1,7 +1,16 @@
 ---
 lab:
-    title: 'Lab 5: - Configure Privileged Identity Management for Microsoft Entra roles'
-    module: 'Module : Deploying access using Microsoft Entra entitlement management'
+  title: 'Lab 5: - Configure Privileged Identity Management for Microsoft Entra roles'
+  module: 'Module : Deploying access using Microsoft Entra entitlement management'
+  description: A Privileged role administrator can customize Privileged Identity Management
+    (PIM) in their Microsoft Entra organization, including changing the experience
+    for a user who is activating an eligible role assignment. You must become familiar
+    with configuring PIM.
+  duration: 30 minutes
+  level: 300
+  islab: true
+  primarytopics:
+  - Microsoft Entra
 ---
 
 # Lab 5: Configure Privileged Identity Management for Microsoft Entra roles
