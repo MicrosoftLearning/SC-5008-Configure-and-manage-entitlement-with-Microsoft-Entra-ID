@@ -1,7 +1,17 @@
 ---
 lab:
-    title: 'Lab 6: - Monitor and managed security posture with Identity Secure Score'
-    module: 'Module : Deploying access using Microsoft Entra entitlement management'
+  title: 'Lab 6: - Monitor and managed security posture with Identity Secure Score'
+  module: 'Module : Deploying access using Microsoft Entra entitlement management'
+  description: Microsoft Entra Identity Protection provides automated detection and remediation to identity-based risks, and provides data in the portal to investigate potential risks. Microsoft Entra Identity Protection also provides an Identity Secure Score to monitor and improve your identity security posture. In the same manner as Microsoft Defender XDR and Microsoft Defender for Cloud, Identity Secure Score provides improvement actions and recommendations that can improve your overall security posture for identity in Microsoft Entra ID. This lab will explore this capability.
+  duration: 15 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Microsoft Defender
+    - Microsoft Defender for Cloud
+    - Microsoft Defender XDR
+    - Microsoft Entra
+    - Microsoft Entra ID
 ---
 
 # Lab 6 - Monitor and managed security posture with Identity Secure Score
