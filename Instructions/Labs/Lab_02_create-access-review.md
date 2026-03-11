@@ -1,7 +1,21 @@
 ---
 lab:
-    title: 'Lab 2: - Create and manage an Access review'
-    module: 'Module : Deploying access using Microsoft Entra entitlement management'
+  title: 'Lab 2: - Create and manage an Access review'
+  module: 'Module : Deploying access using Microsoft Entra entitlement management'
+  description: Access reviews help ensure that only the right people have access to
+    secure resources and information. An access review can be set up for one-time
+    or recurring periods, and it enables reviewers to approve or deny access based
+    on factors like user role, last sign-in, or risk level. The results of these reviews
+    can then be used to update user access rights, ensuring that they align with company
+    policies and compliance requirements. For this company, they use an access review
+    when an employee changes roles within a company. For example, if an employee moves
+    from a sales role to a marketing role, they may no longer need access to certain
+    sales databases or applications. An access review would help identify these unnecessary
+    permissions and allow the company to revoke them, thereby reducing the risk of
+    unauthorized access or data leaks.
+  duration: 15 minutes
+  level: 200
+  islab: true
 ---
 
 # Lab 2: Create and manage an Access review
