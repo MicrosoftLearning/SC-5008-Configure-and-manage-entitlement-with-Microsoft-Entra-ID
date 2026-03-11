@@ -1,7 +1,24 @@
 ---
 lab:
-    title: 'Lab 1: Building a catalog for use in Entitlement'
-    module: 'Module : Deploying access using Microsoft Entra entitlement management'
+  title: 'Lab 1: Building a catalog for use in Entitlement'
+  module: 'Module : Deploying access using Microsoft Entra entitlement management'
+  description: In a mid-sized software development company, the IT department decides
+    to implement Microsoft Entra for entitlement management. The primary goal is to
+    streamline access to resources and applications across the organization. With
+    Microsoft Entra, they can define access packages based on roles or projects, which
+    simplifies the process of granting or revoking access rights. For instance, when
+    a new developer joins a project, the IT department can easily provide them with
+    the necessary access by assigning them to the corresponding access package. This
+    not only saves time but also reduces the risk of unauthorized access. Furthermore,
+    Microsoft Entra's periodic access reviews ensure that only the right people have
+    access to sensitive resources. In the implementation lab, the IT team will set
+    up various access packages, define policies for automatic access assignment and
+    revocation, and conduct a mock access review.
+  duration: 30 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Microsoft Entra
 ---
 
 # Lab 1: Building a catalog in Microsoft Entra entitlement management
