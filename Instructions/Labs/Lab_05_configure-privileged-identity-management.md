@@ -2,7 +2,7 @@
 lab:
   title: 'Lab 5: - Configure Privileged Identity Management for Microsoft Entra roles'
   module: 'Module : Deploying access using Microsoft Entra entitlement management'
-  description: With Microsoft Entra ID, a Global administrator can make permanent Microsoft Entra admin role assignments. These role assignments can be created using the Microsoft Entra admin center, the Azure portal, or using PowerShell commands. The Privileged Identity Management (PIM) service also allows Privileged role administrators to make permanent admin role assignments. Additionally, Privileged role administrators can make users eligible for Microsoft Entra admin roles. An eligible administrator can activate the role when they need it, and then their permissions expire once they're done.
+  description: The Privileged Identity Management (PIM) service also allows Privileged role administrators to make permanent admin role assignments. Learn to assign a privileged role to users in your company.
   duration: 30 minutes
   level: 300
   islab: true
