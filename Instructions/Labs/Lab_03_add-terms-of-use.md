@@ -2,7 +2,7 @@
 lab:
   title: 'Lab 3: - Add terms of use and acceptance reporting'
   module: 'Module : Deploying access using Microsoft Entra entitlement management'
-  description: Microsoft Entra terms of use policies provide a simple method that organizations can use to present information to end users. This presentation ensures users see relevant disclaimers for legal or compliance requirements. This article describes how to get started with terms of use (ToU) policies. You must create and enforce a ToU policy for your organization.
+  description: Microsoft Entra terms of use policies provide a simple method that organizations can use to present information to end users. This labs follows the creation, deployment, and reporting on Terms of use for an Entitlement.
   duration: 20 minutes
   level: 200
   islab: true
