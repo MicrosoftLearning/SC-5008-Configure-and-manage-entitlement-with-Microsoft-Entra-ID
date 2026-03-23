@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 1: Building a catalog for use in Entitlement'
-    module: 'Module : Deploying access using Microsoft Entra entitlement management'
+  title: 'Lab 1: Building a catalog for use in Entitlement'
+  module: 'Module : Deploying access using Microsoft Entra entitlement management'
+  description: 'This lab focuses on the creation of an entitlment access package and assigning it to a user, then validating that access was granted.'
+  duration: 30 minutes
+  level: 200
+  islab: true
 ---
 
 # Lab 1: Building a catalog in Microsoft Entra entitlement management

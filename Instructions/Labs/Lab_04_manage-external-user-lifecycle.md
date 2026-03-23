@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Lab 4: Manage the lifecycle of external users in Microsoft Entra Identity Governance settings'
-    module: 'Module : Deploying access using Microsoft Entra entitlement management'
+  title: 'Lab 4: Manage the lifecycle of external users in Microsoft Entra Identity Governance settings'
+  module: 'Module : Deploying access using Microsoft Entra entitlement management'
+  description: You can select what happens when an external user, who was invited to your directory through an access package request being approved, no longer has any access package assignments. Configure external access settings for your identity platform.
+  duration: 5 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft Entra
 ---
 
 # Lab 4: Manage the lifecycle of external users in Microsoft Entra Identity Governance settings  

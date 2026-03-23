@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Lab 3: - Add terms of use and acceptance reporting'
-    module: 'Module : Deploying access using Microsoft Entra entitlement management'
+  title: 'Lab 3: - Add terms of use and acceptance reporting'
+  module: 'Module : Deploying access using Microsoft Entra entitlement management'
+  description: Microsoft Entra terms of use policies provide a simple method that organizations can use to present information to end users. This labs follows the creation, deployment, and reporting on Terms of use for an Entitlement.
+  duration: 20 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft Entra
 ---
 
 # Lab 3: Add terms of use and acceptance reporting 

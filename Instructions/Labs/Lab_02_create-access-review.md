@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 2: - Create and manage an Access review'
-    module: 'Module : Deploying access using Microsoft Entra entitlement management'
+  title: 'Lab 2: - Create and manage an Access review'
+  module: 'Module : Deploying access using Microsoft Entra entitlement management'
+  description: Access reviews help ensure that only the right people have access to secure resources and information. Follow these labs step to create an Access Review and control any rights drift that might have happened.
+  duration: 15 minutes
+  level: 200
+  islab: true
 ---
 
 # Lab 2: Create and manage an Access review
