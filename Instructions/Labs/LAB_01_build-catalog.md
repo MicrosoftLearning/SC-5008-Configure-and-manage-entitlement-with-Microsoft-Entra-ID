@@ -33,7 +33,7 @@ After you complete this lab, you will be able to:
 
 1. Launch the Microsoft Entra admin center at `https://Entra.Microsoft.com`.
 
-1. In the menu on the left, navigate to **Identity governance** then **Entitlement management**.
+1. In the menu on the left, navigate to **ID governance** then **Entitlement management**.
 
 1. Select **Catalogs** from the menu.
 
@@ -55,7 +55,7 @@ After you complete this lab, you will be able to:
 
 #### Task 2: Add resources to the catalog
 
-1. If you are not already there, navigate to the **Microsoft Entra admin center**, **Identity governance**, **Entitlement management**, then **Catalogs** page.
+1. If you are not already there, navigate to the **Microsoft Entra admin center**, **ID governance**, **Entitlement management**, then **Catalogs** page.
 
 1. Select the **catSales** that we created in the previous task.
 
@@ -80,7 +80,7 @@ After you complete this lab, you will be able to:
 
 1. If you are not already there, navigate to the **Microsoft Entra admin center**.
 
-1. From the menu on the left, select **Identity**, **User**, then **All User** from the menus.
+1. From the menu on the left, select **Entra ID**, **User**, then **All User** from the menus.
 
 1. Select **+ New user** at the top of the page.
 
@@ -104,7 +104,7 @@ After you complete this lab, you will be able to:
 
 #### Task 4: Generate the Access package
 
-1. In Microsoft Entra admin center, select **Identity governance** then select **Entitlement management**.
+1. In Microsoft Entra admin center, select **ID governance** then select **Entitlement management**.
 
 1. From the Entitlement management menu, select **Access packages**.
 
@@ -136,7 +136,7 @@ After you complete this lab, you will be able to:
 
 1. Use the **Next: Requests>** to move to the Requests tab.
 
-1. For the **Users who can request access** select the option **None (administrator direct assignment only).
+1. For the **Users who can request access** select the option **None (administrator direct assignment only)**.
 
 1. Set the **Enable** to **Yes**.
 
@@ -160,7 +160,7 @@ After you complete this lab, you will be able to:
 
 #### Task 5: Assign the package to Christopher
 
-1. Make sure you are in **Microsoft Entra admin center**, **Identity governance**, **Entitlement management**, and have the **Access packages** menu open.
+1. Make sure you are in **Microsoft Entra admin center**, **ID governance**, **Entitlement management**, and have the **Access packages** menu open.
 
 1. Select the **pckSales** that we create in the previous task.
 
@@ -190,7 +190,7 @@ After you complete this lab, you will be able to:
 
 1. You will be prompted to change your password.  Set a new password and record it in a tool like Notepad for future use.
 
-1. Select **Identity**, then **Users**, then **All Users**, and then select **Christopher Green**.
+1. Select **Entra ID**, then **Users**, then **All Users**, and then select **Christopher Green**.
 
 1. From the menu on the left, select **Groups**.
 
