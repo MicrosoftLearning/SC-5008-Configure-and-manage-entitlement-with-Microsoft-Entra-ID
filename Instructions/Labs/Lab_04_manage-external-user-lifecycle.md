@@ -24,15 +24,15 @@ You can select what happens when an external user, who was invited to your direc
 
 1. Sign in to the [https://entra.microsoft.com](https://entra.microsoft.com) as a Global administrator.
 
-2. Open the Microsoft Entra ID item and then select **Identity Governance**.
+2. Open the **ID Governance** item and then select **Entitlement management**.
 
-3. In the left navigation menu, under **Entitlement management**, select **Settings**.
+3. In the left navigation menu, under **Entitlement management**, select **Control configurations**.
 
-4. On the top menu, select **Edit**.
+4. Under **Lifecycle of external users**, select **View settings**.
 
     ![Screen image displaying the Identity governance settings page with manage the lifecycle of external users highlighted.](./Media/manage-lifcycle-of-ext-users.png)
 
-5. In the **Manage the lifecycle of external users** section, review the different settings for external users.
+5. In the **Lifecycle of external users** page, review the different settings for external users.
 
 6. When an external user loses their last assignment to any access packages, if you want to block them from signing in to this directory, set the **Block external user from signing in to this directory** to **Yes**.
 
