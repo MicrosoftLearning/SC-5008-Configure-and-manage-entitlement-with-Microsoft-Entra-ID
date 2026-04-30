@@ -138,7 +138,7 @@ After you complete this lab, you will be able to:
 
 1. For the **Users who can request access** select the option **None (administrator direct assignment only)**.
 
-1. Set the **Enable** to **Yes**.
+1. Note the options available under **Approval** and **Additional Settings**. Set **Require approval** to **No**.
 
 1. Move to the **Lifecycle** tab using the labels at the top of the screen.
 
@@ -184,21 +184,23 @@ After you complete this lab, you will be able to:
 
 1. Open a **New InPrivate window** on your browser.
 
-1. Connect to **Microsoft Entra admin center** at `https://entra.microsoft.com` address.
+1. Connect to **My Access** page at `https://myaccess.microsoft.com`.
 
 1. Log into the site using your Chistopher Green account and password created earlier.
 
 1. You will be prompted to change your password.  Set a new password and record it in a tool like Notepad for future use.
 
-1. Select **Entra ID**, then **Users**, then **All Users**, and then select **Christopher Green**.
+1. On the **My Access overview** page note the options available and, if needed, open the menu at top-left (hamburger menu).
 
-1. From the menu on the left, select **Groups**.
+1. From the menu on the left, expand  **My Groups** and select **Groups I am in**.
 
 1. Confirm that you have been granted access to the **Sales and Marketing** group, per the Access Package.
 
-1. From the menu on the left, select **Applications**.
+1. If needed, open the menu at top-left (hamburger menu) and select **My Apps**.
 
-1. Confirm that you have **LinkedIn** is your assigned applications.
+1. Confirm that you have **LinkedIn** in your Apps dashboard.
+
+1. If time permits, open the menu at top-left (hamburger menu) and explore the options available under **My Access**.
 
 #### Task 7: Challenge - Dynamic changes to the Access package
 
