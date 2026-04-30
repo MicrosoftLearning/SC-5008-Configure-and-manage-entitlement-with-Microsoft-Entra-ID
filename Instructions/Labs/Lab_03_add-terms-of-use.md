@@ -32,9 +32,9 @@ Microsoft Entra terms of use policies provide a simple method that organizations
 
 1. Sign in to [https://entra.microsoft.com](https://entra.microsoft.com) using a Global Administrator account.
 
-2. Open select **Identity Governance** in the left navigation menu.
+2. Open **ID Governance** in the left navigation menu.
 
-3. In the menu, under **Entitlement management**, select **Terms of use**.
+3. Scroll down and under **Terms of use**, select **Terms of use**.
 
 4. On the Terms of use page, on the top menu, select **+ New terms**
 
@@ -60,7 +60,7 @@ Microsoft Entra terms of use policies provide a simple method that organizations
 
 10. To require end users to accept your terms of use on every device they are accessing from, set **Require users to consent on every device** to **Off**. Users may be required to install additional applications if this option is enabled.
 
-    **Warning** - Consent on every device will require users to register each device with Microsoft Entra ID prior to getting access. It is a good practice to require this setting to On; however for the purpose of a cleaner lab, we are using Off.
+    **Warning** - Consent on every device will require users to register each device with Microsoft Entra ID prior to getting access. It is a good practice to require this setting to On; however for the purpose of a cleaner lab, we are using **Off**.
 
 11. If you want to expire terms of use consents on a schedule, set **Expire consents** to **On**. When set to On, two additional schedule settings are displayed.
 
@@ -97,9 +97,9 @@ Microsoft Entra terms of use policies provide a simple method that organizations
 
 16. When the terms of use is created, you will automatically be redirected to the Conditional access policy page. On the page, in the **Name** box, enter **Enforce ToU**.
 
-17. Under **Assignments**, select **0 Users and groups selected**.
+17. Under **Assignments**, select **0 Users or agents (preview) selected**.
 
-18. On the include tab, select **Users and groups** check box.
+18. On the Include tab, choose **Select users and groups** and then select the **Users and groups** check box.
 
 19. In the Select pane, select **Adele Vance** to use to test the terms of use policy.
 
@@ -107,7 +107,7 @@ Microsoft Entra terms of use policies provide a simple method that organizations
 
 20. Under **Target resouces**, select **No target resources selected**.
 
-21. Select **All cloud apps**.
+21. Select **All resources (formerly 'All cloud apps)**.
 
 22. Under **Access controls**, and **Grant**, select **0 controls selected**.
 
@@ -145,19 +145,23 @@ Microsoft Entra terms of use policies provide a simple method that organizations
 
 The Terms of use page shows a count of the users who have accepted and declined. These counts and who accepted/declined are stored for the life of the terms of use.
 
-1. In Microsoft Azure, in **Identity Governance > Terms of use**, locate your terms of use.
+1. In Microsoft Azure, in the **Identity Governance | Terms of use** page, locate your terms of use.
 
 2. For a terms of use, select the numbers under **Accepted** or **Declined** to view the current state for users.
 
+   **Note**: The number may not have updated yet; select the "0" if it has not.
+
     ![Screen image displaying the terms of use with the Accepted and Declined columns highlighted](./Media/terms-of-use-accept-decline.png)
 
-3. In this exercise you may not have any accepted or declined terms of use. In the following example, the **Accepted** value was selected. You can see the reported user information for those that have accepted the terms of use.
+4. In this exercise you may not have any accepted or declined terms of use. In the following example, the **Accepted** value was selected. You can see the reported user information for those that have accepted the terms of use.
 
     ![Terms of use consents pane listing the users that have accepted](./Media/accepted-tou.png)
 
-4. On the **Terms of Use Consents** page select **Download** to download a consents report.
+5. On the **Terms of Use Consents** page select **Download** to download a consents report.
 
-5. On the **Identity Governance | Terms of Use** page, highlight **Testing terms of use** and select **View selected audit logs** to view the audit logs activity.
+6. Go back to the **Identity Governance | Terms of Use** page, highlight **Testing terms of use** row and select **View selected audit logs** to view the audit logs activity.
+ 
+    **NOTE**: Do not select the name of the terms of use, select the blank area to the right of the name.
 
 #### Task 4 - What terms of use looks like for users
 
@@ -192,15 +196,17 @@ You can edit some details of terms of use, but you can't modify an existing docu
 
 1. Sign in to the [https://entra.microsoft.com](https://entra.microsoft.com) as a Global administrator.
 
-2. Open Microsoft Entra ID item and the select **Identity Governance** from the menu.
+2. Open **ID Governance** and the select **Entitlement management** from the menu.
 
-3. In the left navigation menu, under **Entitlement management**, select **Terms of use**.
+3. Scroll down and under **Terms of use**, select **Terms of use**.
 
-4. Select the terms of use you want to edit.
+4. Select the row of terms of use you want to edit.
 
-5. On the top menu, select **Edit terms**.
+    **NOTE**: Do not select the name of the terms of use, select the blank area to the right of the name.
 
-6. In the Edit terms of use pane, you can change the following:
+6. On the top menu, select **Edit terms**.
+
+7. In the Edit terms of use pane, you can change the following:
 
  - **Name** – this is the internal name of the ToU that is not shared with end users
  - **Require users to expand the terms of use** – Setting this to **On** will force the end use to expand the terms of use document before accepting it.
@@ -215,20 +221,22 @@ You can edit some details of terms of use, but you can't modify an existing docu
 
 You may, on occasion, be required to update the terms of use document.
 
-1. Select the terms of use you want to edit.
+1. Select the row of terms of use you want to edit.
+ 
+    **NOTE**: Do not select the name of the terms of use, select the blank area to the right of the name.
 
-2. Select **Edit terms**.
+3. Select **Edit terms**.
 
-3. In the **Language Options** table, identify the terms of use language you want to update and then, in the **Action** column, select **Update**.
+4. In the **Language Options** table, identify the terms of use language you want to update and then, in the **Action** column, select **Update**.
 
     ![Screen image displaying the terms of use with the update option highlighted](./Media/edit-terms-of-use-update.png)
 
-4. In the Update terms of use version pane, you can upload a new version of your terms of use document.
+5. In the Update terms of use version pane, you can upload a new version of your terms of use document.
 
-5. Additionally, you can use the **Require reaccept** toggle button if you want to require your users to accept this new version the next time they sign in. If you do not require your users to re-accept, their previous consent will stay current and only new users who have not consented before or whose consent expires will see the new version.
+6. Additionally, you can use the **Require re-accept** toggle button if you want to require your users to accept this new version the next time they sign in. If you do not require your users to re-accept, their previous consent will stay current and only new users who have not consented before or whose consent expires will see the new version.
 
     ![Screen image displaying the update terms of use version pane with the upload required pdf and require re-accept highlighted](./Media/update-terms-of-use-version.png)
 
-6. Once you have uploaded your new pdf and decided on re-accept, select **Add**.
+7. Once you have uploaded your new pdf and decided on re-accept, select **Add**.
 
-7. You will now see the most recent version under the Document column.
+8. You will now see the most recent version under the Document column.
