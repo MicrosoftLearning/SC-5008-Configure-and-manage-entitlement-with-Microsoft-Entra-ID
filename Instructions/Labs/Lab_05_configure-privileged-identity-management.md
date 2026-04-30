@@ -114,7 +114,7 @@ Follow these steps to make a user eligible for an Microsoft Entra admin role.
 
 **NOTE** - if prompted change your password.
 
-5. From the **Identity** menu, open **Users** and then select **All users**.
+5. From the **Entra ID** menu, open **Users** and then select **All users**.
 6. Find **Miriam** in the list of users
 7. On the **Overview** page, look for the **Assigned roles**.
 8. Select **Eligible assignments**.
@@ -136,15 +136,17 @@ When you need to assume an Microsoft Entra role, you can request activation by o
 
 6. In the Activate – Compliance Administrator pane, select **Additional verification required** and then follow the instructions to provide additional security verification. You are required to authenticate only once per session.
 
+    **NOTE**: If you had previously satisfied the MFA requirement, you will not see this option; skip to the next step.
+
     ![Screen image displaying a popup to activate the compliance administrator](./Media/pim-activate-role.png)
 
     **Verification** - Based on our current lab environment configuration, you will be required configure MFA and log in successfully.
 
-7. After you have completed the additional security verification, in the Activate – Compliance Administrator pane, in the **Reason** box, enter the **This is my justification for activating this role**.
+8. After you have completed the additional security verification, in the Activate – Compliance Administrator pane, in the **Reason** box, enter the **This is my justification for activating this role**.
 
     **Important Note** - the principal of least prvilege, you should only activate the account for the amount of time you need it.  If the work needed to be done, only takes 1.5 hours, then set the duration to two hours.  Similarily, if you know that you won't be able to do the work until after 3pm, choose a Custom activation time.
 
-8. Select **Activate**.
+9. Select **Activate**.
 
 #### Task 4 - Assign a role with restricted scope
 
