@@ -22,11 +22,9 @@ Access reviews help ensure that only the right people have access to secure reso
 
 1. Sign in to [https://entra.microsoft.com](https://entra.microsoft.com) using a Global Administrator account.
 
-1. Open the **Identity** menu, and then select **Identity Governance**.
+1. Open the **ID Governance** menu, and then select **Access reviews**.
 
-1. In the left menu select **Access reviews**.
-
-1. On the top menu, select **+ New access review**.
+1. Select **+ New access review**, then click **Select** under **Resource review**.
 
 1. In the New access review pane, select the **Applications** item in the 'Select what to review' dropdown.
 
@@ -86,15 +84,17 @@ Access reviews help ensure that only the right people have access to secure reso
 
 1. Select **Create**.
 
+1. On the **Identity Governance | Access reviews** page, periodically select **Refresh** and wait for the **Status** to change to **Active**.
+
 #### Task 4 - Log in as Adele to run the Access Review
 
-1. Close your browser, if you have it open.
+1. Close your browser, if you have it open. (Optionally, you could open an In-Private session.)
 
 1. Open the browser and connect to `https://outlook.office.com/`.
 
-1. You will be prompted to change your password once you log in as Adele.
+1. You may be prompted to change your password once you log in as Adele.
 
-1. Log in as Adele Vance based on your tenant.
+1. Log in as Adele Vance based on your tenant (AdeleV@<yourdomain>.onmicrosoft.com).
 
  **Note** - You should have an email from **Microsoft Security** with a subject of **Action required: Review access to the LinkedIn...**.  This email might take up to 10 minutes to arrive.
 
@@ -118,7 +118,7 @@ Access reviews help ensure that only the right people have access to secure reso
 
 1. Log into Microsoft Entra with you administrator account.
 
-1. In the menu on the left open **Identity governance**.
+1. In the menu on the left open **ID governance**.
 
 1. Select **Access reviews**.
 
