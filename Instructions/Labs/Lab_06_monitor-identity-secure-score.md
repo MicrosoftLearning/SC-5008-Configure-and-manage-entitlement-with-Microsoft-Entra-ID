@@ -52,7 +52,7 @@ Microsoft Entra Identity Protection provides automated detection and remediation
 
 7. Under **Conditions** select **0 conditions selected** and then, under **User risk**, select **Not configured**.
 
-8. Under **User risk** select **Configure - Yes** and then the checkboxes for **Medium** and **Above** and then select **Done**.
+8. Under **User risk** select **Configure - Yes** and then the checkboxes for **Medium** and **High** and then select **Done**.
 
 9. Under **Access controls > Grant** select **0 controls selected**, scroll down and select the checkbox for **Require risk remediation**. Read the warning and scroll up to verify that **Require authentication strength > Multifactor authentication** was automatically selected and then scroll down and select the **Select** button. Note that **Access controls > Session** has also been updated to show **Sign-in frequency - Every time**.
 
