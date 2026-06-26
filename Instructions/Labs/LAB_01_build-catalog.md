@@ -31,48 +31,50 @@ After you complete this lab, you will be able to:
 
 #### Task 1: Create a Catalog
 
-1. Launch the Microsoft Entra admin center at `https://Entra.Microsoft.com`.
+1. Sign in to **Microsoft Entra admin center** at **`https://entra.microsoft.com`** using a Global Administrator account.
 
-1. In the menu on the left, navigate to **Identity governance** then **Entitlement management**.
+    >**Note:** You may be required to set up Microsoft Authenticator during sign-in. Follow the prompts to install and configure the app before continuing.
 
-1. Select **Catalogs** from the menu.
+1. In the left navigation menu, expand the **ID Governance**, select **Entitlement management**.
 
- ![Screenshot of the create new catalog screen with the new catalog button highlighted.  You have fields for name, description, and Enabled.](./Media/create-new-catalog.png)
+1. On the **Identity Governance | Getting Started** page, in the left navigation, under **Catalogs** select **Catalogs**.
 
 1. Select **+ New catalog** at the top of the screen.
 
+   ![Screenshot of the create new catalog screen with the new catalog button highlighted.  You have fields for name, description, and Enabled.](./Media/create-new-catalog.png)
+
 1. Name and describe your **New catalog** with the following values:
 
-  | Field | Value |
-  | :---  | :---  |
-  | Name  | `catSales` |
-  | Description | `Use this catalog to assign resources for memebers of the Sales team.` |
-  | Enabled | Yes |
-  | Enabled for external users | No |
-  | | |
+   | Field | Value |
+   | :---  | :---  |
+   | Name  | `catSales` |
+   | Description | `Use this catalog to assign resources for members of the Sales team.` |
+   | Enabled | **Yes** |
+   | Enabled for external users | **No** |
+   | | |
 
 1. Select **Create**.
 
 #### Task 2: Add resources to the catalog
 
-1. If you are not already there, navigate to the **Microsoft Entra admin center**, **Identity governance**, **Entitlement management**, then **Catalogs** page.
+1. If you are not already there, navigate to the **Microsoft Entra admin center** > **ID Governance** > **Entitlement management**, then **Catalogs** page.
 
 1. Select the **catSales** that we created in the previous task.
 
 1. Select **Resources** from the menu.
 
-1. Next select **+ Add resources** from the top of the page.
+1. Select **+ Add resources** from the top of the page.
 
- ![Screenshot of Add resources to catalog user interface. You can add Teams, Applications, SharePoints, and other items.](./Media/add-resources-to-catalog.png)
+   ![Screenshot of Add resources to catalog user interface. You can add Teams, Applications, SharePoints, and other items.](./Media/add-resources-to-catalog.png)
 
 1. Using the selectors at the top of the screen, add the following resources:
 
-  | Resource Type | Value |
-  | :---  | :---  |
-  | + Groups and Teams  | Sales and Marketing, and U.S. Sales |
-  | + Applications | LinkedIn |
-  | + SharePoint sites | Sales and Marketings, and U.S. Sales |
-  | | |
+   | Resource Type | Value |
+   | :---  | :---  |
+   | + Groups and Teams  | Select **Sales and Marketing**, and **U.S. Sales** |
+   | + Applications | **LinkedIn** |
+   | + SharePoint sites | Select **Sales and Marketing**, and **U.S. Sales** |
+   | | |
 
 1. Select the **Add** button.
 
@@ -80,31 +82,31 @@ After you complete this lab, you will be able to:
 
 1. If you are not already there, navigate to the **Microsoft Entra admin center**.
 
-1. From the menu on the left, select **Identity**, **User**, then **All User** from the menus.
+1. In the left navigation menu, under **Entra ID**, select **Users**.
 
-1. Select **+ New user** at the top of the page.
+1. On the **Users** page, select **All users**, select **+ New user**, and then select **Create new user**.
 
 1. Fill in the values on the **Basics** page:
 
-  | Field | Value |
-  | :---  | :---  |
-  | User principal name  | `ChrisGr` |
-  | Diplay name | `Christopher Green` |
-  | Auto-generated password | Checked on |
-  | Account enabled | Checked on |
-  | | |
+   | Field | Value |
+   | :---  | :---  |
+   | User principal name  | `ChrisGr` |
+   | Display name | `Christopher Green` |
+   | Auto-generated password | Checked on |
+   | Account enabled | Checked on |
+   | | |
 
-1. Copy and paste the "Password" to a safe location like Notepad (you will need the password later in this lab).
+1. Copy and paste the **Password** to a safe location like **Notepad** (you will need the password later in this lab).
 
-1. Select the "Properties" tab.
+1. Select the **Properties** tab.
 
-1. At the bottom of the Properties screen set the **Usage location = United States**.
+1. At the bottom of the **Properties** screen, set **Usage location** to **United States**.
 
-1. Select **Review + Create** then select **Create**.
+1. Select **Review + Create**, then select **Create**.
 
 #### Task 4: Generate the Access package
 
-1. In Microsoft Entra admin center, select **Identity governance** then select **Entitlement management**.
+1. On the **Microsoft Entra admin center**, in the left navigation menu, expand the **ID Governance**, select **Entitlement management**.
 
 1. From the Entitlement management menu, select **Access packages**.
 
@@ -112,45 +114,47 @@ After you complete this lab, you will be able to:
 
 1. Enter the requested values:
 
-  | Field | Value |
-  | :---  | :---  |
-  | Name  | `pckSales` |
-  | Diplay name | `Use this access package to assign resources to members of the Sales team.` |
-  | Catalog | catSales |
-  | | |
+   | Field | Value |
+   | :---  | :---  |
+   | Name  | `pckSales` |
+   | Display name | `Use this access package to assign resources to members of the Sales team.` |
+   | Catalog | **catSales** |
+   | | |
 
-  **Note** - You must pick the catSales catalog we created in the previous task. This will provide the list of resources available to be assigned in this package.  There is a General package that is listed as the default.  If you accidentally chose this, you will not see any resources available.
+    >**Note**: You must pick the catSales catalog we created in the previous task. This will provide the list of resources available to be assigned in this package.  There is a General package that is listed as the default.  If you accidentally chose this, you will not see any resources available.
 
-1. Select the "Resource roles" tab.
+1. Select the **Resource roles** tab.
 
 1. Select the resources that you want to provide in his Access package, from the items in the catSales catalog. Then use the **Select role** dropdown to set the Role to listed in the table below.
 
-  | Resource Type | Value | Role |
-  | :---  | :---  | :--- |
-  | + Groups and Teams  | Sales and Marketing | Member |
-  | + Applications | LinkedIn | msiam_access |
-  | + SharePoint sites | U.S. Sales | U.S. Sales Members |
-  | | |
-
-1. Set the **Select role** dropdown to set the Role to **Member** for each item.
+   | Resource Type | Value | Role |
+   | :---  | :---  | :--- |
+   | + Groups and Teams  | **Sales and Marketing** | **Member** |
+   | + Applications | **LinkedIn** | **msiam_access** |
+   | + SharePoint sites | **U.S. Sales** | **U.S. Sales Members** |
+   | | |
 
 1. Use the **Next: Requests>** to move to the Requests tab.
 
-1. For the **Users who can request access** select the option **None (administrator direct assignment only).
+1. For **Who can get access**, select **None (administrator direct assignments only)**.
 
-1. Set the **Enable** to **Yes**.
+1. In **Who can request access**, leave the default settings.
+
+1. For **Require requestor justification**, select **Yes**.
+
+1. In the **First Approver** section, select **+ Add fallback**, then choose a user and select **Select**.
 
 1. Move to the **Lifecycle** tab using the labels at the top of the screen.
 
-1. Choose the values to set the lifecycle of the pacakge:
+1. Choose the values to set the lifecycle of the package:
 
-  | Field | Value |
-  | :---  | :---  |
-  | Access package assignments expire  | Number of Days |
-  | Assignments expire after | 30 |
-  | Users can request specific timeline | No |
-  | Require access reviews | No |
-  | | |
+   | Field | Value |
+   | :---  | :---  |
+   | Access package assignments expire  | **Number of Days** |
+   | Assignments expire after | **30** |
+   | Users can request specific timeline | **No** |
+   | Require access reviews | Not selected |
+   | | |
 
 1. Select the **Review + create** at the bottom of the screen.
 
@@ -160,7 +164,7 @@ After you complete this lab, you will be able to:
 
 #### Task 5: Assign the package to Christopher
 
-1. Make sure you are in **Microsoft Entra admin center**, **Identity governance**, **Entitlement management**, and have the **Access packages** menu open.
+1. Make sure you are in **Microsoft Entra admin center** > **ID Governance** > **Entitlement management**, and have the **Access packages** menu open.
 
 1. Select the **pckSales** that we create in the previous task.
 
@@ -170,11 +174,13 @@ After you complete this lab, you will be able to:
 
 1. For the **Select policy** use the **Initial Policy** provided in the dropdown.
 
-1. Make sure the **User already in my directory** is marked.
+1. Make sure the **Identities in my directory** is marked.
 
-1. Select the **Add users** item from the dialog.
+1. Select the **Add identities** item from the dialog.
 
 1. Find **Christopher Green** in the list of users.  Put a check in the box next to that name.  Then select the **Select** button at the bottom of the screen.
+
+1. In the **Business justification** box, enter a justification (for example, `Access required for testing the access package assignment`).
 
 1. Leave the rest of the values set at the defaults.
 
@@ -184,13 +190,18 @@ After you complete this lab, you will be able to:
 
 1. Open a **New InPrivate window** on your browser.
 
-1. Connect to **Microsoft Entra admin center** at `https://entra.microsoft.com` address.
+1. Open **Microsoft Entra admin center** at **`https://entra.microsoft.com`** and sign in as **Christopher Green**.
 
-1. Log into the site using your Chistopher Green account and password created earlier.
+    | **Setting**| **Value**|
+    | :--- | :--- |
+    | User Name | `ChrisGr@<<your domain name>>.onmicrosoft.com` |
+    | Password| Enter the auto-generated password from previous task. |
 
-1. You will be prompted to change your password.  Set a new password and record it in a tool like Notepad for future use.
+1. You will be prompted to change your password. Set a new password and record it in a tool like Notepad for future use.
 
-1. Select **Identity**, then **Users**, then **All Users**, and then select **Christopher Green**.
+    >**Note:** You may be required to set up Microsoft Authenticator during sign-in. Follow the prompts to install and configure the app before continuing.
+
+1. In the left navigation menu, under **Entra ID**, select **Users**, select **All users**, and then select **Christopher Green**.
 
 1. From the menu on the left, select **Groups**.
 
@@ -202,7 +213,7 @@ After you complete this lab, you will be able to:
 
 #### Task 7: Challenge - Dynamic changes to the Access package
 
-  **Note** - This task does not have step by step instructions. You are provide the set of tasks, and you can reference previous steps above to remind you of where to make specific changes.
+  >**Note**: This task does not have step by step instructions. You are provide the set of tasks, and you can reference previous steps above to remind you of where to make specific changes.
 
 - Make sure you logged into **Microsoft Entra admin center** as your admin account.
 - Open your **pckSales** Access package.
