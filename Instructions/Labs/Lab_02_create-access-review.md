@@ -20,15 +20,19 @@ Access reviews help ensure that only the right people have access to secure reso
 
 #### Task 1 - Create an Access Review - Review Type
 
-1. Sign in to [https://entra.microsoft.com](https://entra.microsoft.com) using a Global Administrator account.
+1. Sign in to **Microsoft Entra admin center** at **`https://entra.microsoft.com`** using a Global Administrator account.
 
-1. Open the **Identity** menu, and then select **Identity Governance**.
+    >**Note:** You may be required to set up Microsoft Authenticator during sign-in. Follow the prompts to install and configure the app before continuing.
 
-1. In the left menu select **Access reviews**.
+1. In the left navigation menu, expand the **ID Governance**, select **Entitlement management**.
+
+1. On the **Identity Governance | Getting Started** page, in the left navigation, under **Access reviews** select **Access reviews**.
 
 1. On the top menu, select **+ New access review**.
 
-1. In the New access review pane, select the **Applications** item in the 'Select what to review' dropdown.
+1. In the **Create an access review** page, under **Choose an Access Review template**, select **Resource review**.
+
+1. In the **New access review** pane, select the **Applications** item in the 'Select what to review' dropdown.
 
 1. Use the **+ Select applications(s)** to choose the **LinkedIn** from the list.
 
@@ -40,33 +44,33 @@ Access reviews help ensure that only the right people have access to secure reso
 
 1. Temporarily mark the **Multi-stage review** box with a check.
 
- **Note** - This is where you can choose to have several layers to your Access review.  Use this for very important resouces, so that a single person's review does not add or remove a critical resource from user access.  We are not going to build / test a multi-stage; but the process is very similar.
+ **Note** - This is where you can choose to have several layers to your Access review.  Use this for very important resources, so that a single person's review does not add or remove a critical resource from user access.  We are not going to build / test a multi-stage; but the process is very similar.
 
 1. Uncheck the **Multi-stage review** box.
 
 1. Fill out the Review page with the below values:
 
-| Field name | Value |
-| :--- | :--- |
-| Select reviewers | Selected users(s) or groups(s) -- Adele Vance |
-| Duration (in days) | 5 |
-| Review recurrence | Monthly |
-| Start date | Today's date |
-| End | End after number of occurences |
-| Occurences | 3 |
-| | |
+   | Field name | Value |
+   | :--- | :--- |
+   | Select reviewers | Selected users(s) or groups(s) -- **Adele Vance** |
+   | Duration (in days) | **5** |
+   | Review recurrence | **Monthly** |
+   | Start date | **Today's date** |
+   | End | **End after number of occurrences** |
+   | Occurrences | **3** |
+   | | |
 
 1. Select the **Next: Settings** option.
 
 #### Task 3 - Create an Access review - Settings
 
-1. Leave **Auto apply results to resoureces** box in the unchecked state.
+1. Leave **Auto apply results to resources** box in the unchecked state.
 
- **Note** - we want to make sure we validate the results after the review is complete.
+   >**Note**: we want to make sure we validate the results after the review is complete.
 
-1. Chose the option **Remove access** for the **If reviewer don't respond**.
+1. Choose the option **Remove access** for the **If reviewers don't respond**.
 
- **Note** - this is a setting you can use to control your level of security.  If no review responds in a less secure security posture, you can got with Approve Access.  In a very secure security posture, you can use the Remove Access.  When implementing your own solutions, pick what works best for your company.
+   >**Note**: this is a setting you can use to control your level of security.  If no reviewer responds in a less secure security posture, you can go with Approve Access.  In a very secure security posture, you can use the Remove Access.  When implementing your own solutions, pick what works best for your company.
 
 1. For **At end of review, send notification to** select the admin account you are using for this lab.
 
@@ -78,11 +82,11 @@ Access reviews help ensure that only the right people have access to secure reso
 
 1. Enter the below values for the name and description:
 
-| Field name | Value |
-| :--- | :--- |
-| Review name | `Check LinkedIn` |
-| Description | `In this access review, we check to see if the right people have access to LinkedIn.` |
-| | | 
+   | Field name | Value |
+   | :--- | :--- |
+   | Review name | `Check LinkedIn` |
+   | Description | `In this access review, we check to see if the right people have access to LinkedIn.` |
+   | | | 
 
 1. Select **Create**.
 
@@ -94,13 +98,13 @@ Access reviews help ensure that only the right people have access to secure reso
 
 1. You will be prompted to change your password once you log in as Adele.
 
-1. Log in as Adele Vance based on your tenant.
+1. Log in as Adele Vance based on your tenant `AdeleV@<yourdomain>.onmicrosoft.com`.
 
- **Note** - You should have an email from **Microsoft Security** with a subject of **Action required: Review access to the LinkedIn...**.  This email might take up to 10 minutes to arrive.
+    >**Note**: You should have an email from **Microsoft Security** with a subject of **Action required: Review access to the LinkedIn...**.  This email might take up to 10 minutes to arrive.
 
 1. Select the **Start review >** button.
 
- ![Screenshot of the Access review page that AdeleV gets when launching the link in email.  Note that Christopher Green is recommended to be removed.](./Media/access-review-page.png)
+   ![Screenshot of the Access review page that AdeleV gets when launching the link in email.  Note that Christopher Green is recommended to be removed.](./Media/access-review-page.png)
 
 1. Put a check-mark in the circle next to **Christopher Green**.
 
@@ -116,9 +120,9 @@ Access reviews help ensure that only the right people have access to secure reso
 
 1. Open the browser and connect to `https://Entra.Microsoft.com/`.
 
-1. Log into Microsoft Entra with you administrator account.
+1. Log into Microsoft Entra with your administrator account.
 
-1. In the menu on the left open **Identity governance**.
+1. In the menu on the left open **ID Governance**.
 
 1. Select **Access reviews**.
 
