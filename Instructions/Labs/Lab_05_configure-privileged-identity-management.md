@@ -117,7 +117,7 @@ Follow these steps to make a user eligible for a Microsoft Entra admin role.
     | Username | `MiriamG@<<your domain.onmicrosoft.com>>` |
     | Password |  Enter the tenant's admin password(Refer the Lab Resources tab to retrieve the tenant admin password) |
 
-    >**Note:** You may be required to set up Microsoft Authenticator during sign-in. Follow the prompts to install and configure the app before continuing.
+    >**Note**: You may be required to set up Microsoft Authenticator during sign-in. Follow the prompts to install and configure the app before continuing.
 
     >**Note**: if prompted change your password.
 
@@ -145,17 +145,15 @@ When you need to assume a Microsoft Entra role, you can request activation by op
 
     ![Screen image displaying My roles with eligible role assignments highlighted](./Media/pim-my-roles.png)
 
-1. In the Compliance Administrator role row, select **Activate**.
+1. In the **Compliance Administrator** role row, select **Activate**.
 
-1. In the **Activate – Compliance Administrator** pane, select **Additional verification required** and then follow the instructions to provide additional security verification. You are required to authenticate only once per session.
+    >**Note**: You may be required to complete additional verification (for example, MFA) after selecting **Activate**, depending on the lab environment configuration.
 
-    ![Screen image displaying a popup to activate the compliance administrator](./Media/pim-activate-role.png)
+1. In the **Activate - Compliance Administrator** pane, in the **Reason** box, enter a justification like: **This is my justification for activating this role**.
 
-    **Verification** - Based on our current lab environment configuration, you will be required configure MFA and log in successfully.
-
-1. After you have completed the additional security verification, in the Activate – Compliance Administrator pane, in the **Reason** box, enter the **This is my justification for activating this role**.
-
-    **Important Note** - the principle of least privilege, you should only activate the account for the amount of time you need it.  If the work needed to be done, only takes 1.5 hours, then set the duration to two hours.  Similarly, if you know that you won't be able to do the work until after 3pm, choose a Custom activation time.
+    > **Important Note**: Follow the principle of least privilege. Activate the role only for the time needed.  
+    > For example, if the task takes 1.5 hours, set the duration to 2 hours.  
+    > If you need to start later, use **Custom activation start time**.
 
 1. Select **Activate**.
 
