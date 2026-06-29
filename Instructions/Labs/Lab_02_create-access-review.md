@@ -30,7 +30,7 @@ Access reviews help ensure that only the right people have access to secure reso
 
 1. On the top menu, select **+ New access review**.
 
-1. In the **Create an access review** page, under **Choose an Access Review template**, select **Resource review**.
+1. On the **Create an access review** page, under **Choose an access review template**, in the **Resource review** section, select **Select**.
 
 1. In the **New access review** pane, select the **Applications** item in the 'Select what to review' dropdown.
 
@@ -90,13 +90,11 @@ Access reviews help ensure that only the right people have access to secure reso
 
 1. Select **Create**.
 
+1. On the **Identity Governance | Access reviews** page, periodically select **Refresh** and wait for the **Status** to change to **Active**.
+
 #### Task 4 - Log in as Adele to run the Access Review
 
-1. Close your browser, if you have it open.
-
-1. Open the browser and connect to `https://outlook.office.com/`.
-
-1. You will be prompted to change your password once you log in as Adele.
+1. Open a **New InPrivate window** on your browser and connect to `https://outlook.office.com/`.
 
 1. Log in as Adele Vance based on your tenant `AdeleV@<yourdomain>.onmicrosoft.com`.
 
