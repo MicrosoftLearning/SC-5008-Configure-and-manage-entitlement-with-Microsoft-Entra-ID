@@ -142,7 +142,7 @@ After you complete this lab, you will be able to:
 
 1. For **Require requestor justification**, select **Yes**.
 
-1. In the **First Approver** section, select **+ Add fallback**, then choose a user and select **Select**.
+1. In the **First Approver** section, select **+ Add fallback**, choose an admin account, and then select **Select**.
 
 1. Move to the **Lifecycle** tab using the labels at the top of the screen.
 
