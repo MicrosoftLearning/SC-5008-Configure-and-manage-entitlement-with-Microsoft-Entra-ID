@@ -138,11 +138,7 @@ After you complete this lab, you will be able to:
 
 1. For **Who can get access**, select **None (administrator direct assignments only)**.
 
-1. In **Who can request access**, leave the default settings.
-
-1. For **Require requestor justification**, select **Yes**.
-
-1. In the **First Approver** section, select **+ Add fallback**, choose an admin account, and then select **Select**.
+1. Note the options available under **Approval** and **Additional Settings**. Set **Require approval** to **No**.
 
 1. Move to the **Lifecycle** tab using the labels at the top of the screen.
 
@@ -179,8 +175,6 @@ After you complete this lab, you will be able to:
 1. Select the **Add identities** item from the dialog.
 
 1. Find **Christopher Green** in the list of users.  Put a check in the box next to that name.  Then select the **Select** button at the bottom of the screen.
-
-1. In the **Business justification** box, enter a justification (for example, `Access required for testing the access package assignment`).
 
 1. Leave the rest of the values set at the defaults.
 
