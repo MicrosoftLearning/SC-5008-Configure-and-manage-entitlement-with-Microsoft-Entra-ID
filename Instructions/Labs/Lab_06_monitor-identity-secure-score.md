@@ -40,27 +40,41 @@ Microsoft Entra Identity Protection provides automated detection and remediation
 #### Task 2 - Execute an improvement action
 
 1. To improve one area of the identity security posture, select **Protect all users with a user risk policy**.
-   
+
 1. Review the **Action plan**.
 
 1. Select the link **Follow these steps to create a Conditional Access policy from scratch or by using a template**. Review the steps in the article and then close the tab.
 
-1. In the left navigation menu, expand the **ID Protection**, select **Dashboard**.
+    > **Note:** The **Sign-in risk policy** is now read-only and will be retired. Risk-based policies are configured using **Conditional Access**.
 
-1. On the **ID Protection | Dashboard** page, in the left navigation, under **Protect** select **Sign-in risk policy**.
+1. In the left navigation menu, under **Entra ID**, select **Conditional Access**.
 
-1. On the **ID Protection | Sign-in risk policy** page, in the **Assignments** section,  under **Users**, make sure **All users** is selected.
+1. Select **+ Create new policy**.
 
-1. Under **Sign-in risk**, select the **Low and above** link.
+1. In the **Name** box, enter **User risk remediation**.
 
-1. In the **Sign-in risk** pane, select **Medium and above**, then select **Done**.
+1. Under **Assignments > Users or agents**, select **0 users or agents selected**.
 
-1. In the **Controls** section, under **Access**, select **Block access**.
+1. On the **Include** tab, select **All users**.
 
-1. In the **Access** pane, select **Allow access** - **Require multi-factor authentication**, then select **Done**.
+1. Select the **Exclude** tab, select **Users and groups** and exclude **MOD Administrator**.
 
-1. Turn the **Policy enforcement** to **Enabled** (if not done so already), and select **Save**.
+1. Under **Target resources** select **No target resources selected**, then select **All resources (formerly 'All cloud apps')**.
 
-1. You have created a Sign-in risk policy that should now increase your Identity Secure Score.  This will take up to 24 hours to take effect in your Identity Secure Score.
+1. Under **Conditions** select **0 conditions selected** and then, under **User risk**, select **Not configured**.
 
-1. Review other improvement actions and the steps to create and enable them.
+1. On the **User risk** pane, select **Configure - Yes** and then the checkboxes for **Medium** and **High**, then select **Done**.
+
+1. Under **Access controls > Grant** select **0 controls selected**.
+
+1. Scroll down and select the checkbox for **Require risk remediation**, read the warning and scroll up to verify that **Require authentication strength > Multifactor authentication** was automatically selected.
+
+1. Scroll down and select the **Select** button. Note that **Access controls > Session** has also been updated to show **Sign-in frequency - Every time**.
+
+1. Under **Enable Policy** select **On**, then select **Create**.
+
+1. You have created a User risk policy that should now increase your Identity Secure Score.  This will take up to 24 hours to take affect in your Identity Secure Score.
+
+1.  From the Entra ID menu on the left, select **Identity Secure Score** to review other improvement actions and the steps to create and enable them.
+
+1. The policy is created and will increase the Identity Secure Score.
