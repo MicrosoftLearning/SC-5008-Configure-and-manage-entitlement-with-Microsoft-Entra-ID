@@ -176,7 +176,7 @@ After you complete this lab, you will be able to:
 
 1. Find **Christopher Green** in the list of users.  Put a check in the box next to that name.  Then select the **Select** button at the bottom of the screen.
 
-1. Leave the rest of the values set at the defaults.
+1. In the **Business justification** field, enter Access required for sales activities.
 
 1. Select the **Add** button at the bottom of the page.
 
