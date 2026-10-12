@@ -99,7 +99,7 @@ Microsoft Entra terms of use policies provide a simple method that organizations
 
 1. When the terms of use is created, you will automatically be redirected to the Conditional access policy page. On the page, in the **Name** box, enter `Enforce ToU`.
 
-1. Under **Assignments**, select **0 users or agents selected**.
+1. Under **Assignments**, select **0 users and groups selected**.
 
 1. On the Include tab, choose **Select users and groups** and then select the **Users and groups** check box.
 
