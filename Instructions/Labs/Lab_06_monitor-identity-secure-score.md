@@ -53,7 +53,7 @@ Microsoft Entra Identity Protection provides automated detection and remediation
 
 1. In the **Name** box, enter **User risk remediation**.
 
-1. Under **Assignments > Users or agents**, select **0 users or agents selected**.
+1. Under **Assignments > Users and groups**, select **0 users and groups selected**.
 
 1. On the **Include** tab, select **All users**.
 
